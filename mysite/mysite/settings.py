@@ -149,10 +149,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'users.CustomUser'
-
 AUTHENTICATION_BACKENDS = ['users.backends.EmailBackend']
 
 
 BLOG_MEDIA_URL = '/blog_media/'
 BLOG_MEDIA_ROOT = os.path.join(BASE_DIR, 'blog_media')
-print('BLOG_MEDIA_ROOT', BLOG_MEDIA_ROOT)

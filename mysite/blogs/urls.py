@@ -10,4 +10,5 @@ router.register(r'', BlogView, basename='blog')
 
 urlpatterns = [
     path("", include(router.urls) ),
+    # path("/comment", Comment.as_view(), name="comment")
 ]

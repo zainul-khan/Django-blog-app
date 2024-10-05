@@ -2,3 +2,4 @@
 .venv
 **/.env
 steps.txt
+**/blog_media
